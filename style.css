@@ -1189,35 +1189,6 @@ section {
   transform: scale(1.1);
 }
 
-/* Safety & Insurance */
-.safety-insurance {
-  background: var(--brand-white);
-}
-
-.safety-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--space-24);
-}
-
-.safety-item {
-  text-align: center;
-  padding: var(--space-20);
-}
-
-.safety-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: var(--radius-lg);
-  margin-bottom: var(--space-16);
-}
-
-.safety-icon {
-  font-size: 3rem;
-  margin-bottom: var(--space-16);
-}
-
 /* CTA Band */
 .cta-band {
   background: linear-gradient(
@@ -1361,44 +1332,6 @@ section {
   }
 }
 
-/* Pricing Guide */
-.pricing-guide {
-  background: var(--color-bg-4);
-  padding: var(--space-32);
-  border-radius: var(--radius-lg);
-  margin: var(--space-32) 0;
-  text-align: center;
-}
-
-.pricing-table {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--space-24);
-  margin-top: var(--space-24);
-}
-
-.pricing-item {
-  background: var(--brand-white);
-  padding: var(--space-24);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
-}
-
-.price-range {
-  font-size: var(--font-size-2xl);
-  font-weight: 700;
-  color: var(--brand-royal-blue);
-  margin: var(--space-12) 0;
-}
-
-.service-cta-section {
-  text-align: center;
-  padding: var(--space-32);
-  background: var(--color-bg-5);
-  border-radius: var(--radius-lg);
-  margin-top: var(--space-32);
-}
-
 /* About Page */
 .about-content {
   max-width: 1000px;
@@ -1433,89 +1366,6 @@ section {
   background: var(--brand-white);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
-}
-
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--space-24);
-  margin-top: var(--space-24);
-}
-
-.team-member {
-  padding: var(--space-20);
-  background: var(--brand-white);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
-  text-align: center;
-}
-
-.team-member .role {
-  color: var(--brand-royal-blue);
-  font-weight: 600;
-  margin-bottom: var(--space-8);
-}
-
-.cert-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: var(--space-16);
-  margin-top: var(--space-24);
-}
-
-.cert-item {
-  padding: var(--space-16);
-  background: var(--brand-white);
-  border-radius: var(--radius-base);
-  box-shadow: var(--shadow-sm);
-  text-align: center;
-}
-
-.sustainability-items {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--space-24);
-  margin-top: var(--space-24);
-}
-
-.sustainability-item {
-  padding: var(--space-20);
-  background: var(--brand-white);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
-  text-align: center;
-}
-
-.stories-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--space-24);
-  margin-top: var(--space-24);
-}
-
-.story {
-  padding: var(--space-20);
-  background: var(--brand-white);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
-  border-left: 4px solid var(--brand-royal-blue);
-}
-
-.story cite {
-  display: block;
-  text-align: right;
-  margin-top: var(--space-12);
-  color: var(--color-text-light);
-  font-style: normal;
-  font-size: var(--font-size-sm);
-}
-
-.careers-cta {
-  background: var(--color-bg-6);
-  padding: var(--space-32);
-  border-radius: var(--radius-lg);
-  text-align: center;
-  margin-top: var(--space-32);
 }
 
 /* Contact Page */
