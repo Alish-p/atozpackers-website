@@ -1339,6 +1339,18 @@ section {
 }
 
 /* About Page */
+.about-image {
+  margin: var(--space-24) auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
 .about-content {
   max-width: 1000px;
   margin: 0 auto;
