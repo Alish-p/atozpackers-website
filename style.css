@@ -1290,13 +1290,15 @@ section {
   align-items: center;
   margin-bottom: var(--space-32);
   padding: var(--space-24);
-  background: var(--brand-white);
+  background: var(--color-bg-3);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
+  transition: all var(--duration-normal) var(--ease-standard);
 }
 
 .services-detailed .service-module:nth-child(even) {
   background: var(--color-bg-1);
+  flex-direction: row-reverse;
 }
 
 .service-module:nth-child(even) .service-detail-image {
