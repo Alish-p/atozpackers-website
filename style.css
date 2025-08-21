@@ -306,6 +306,7 @@ pre code {
 
 .btn--primary:hover {
   background: var(--color-primary-hover);
+  color: var(--color-btn-primary-text);
 }
 
 .btn--primary:active {
@@ -1053,7 +1054,6 @@ section {
 .process-steps {
   background: var(--brand-white);
 }
-
 
 .steps-container {
   position: relative;
